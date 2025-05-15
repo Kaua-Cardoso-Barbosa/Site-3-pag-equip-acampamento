@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header-instrutores {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner-instrutores.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 40px;
+}
+
+.header-instrutores h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.header-instrutores p {
+    font-size: 1.2rem;
+}
+
+.main-instrutores {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.instrutores-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.instrutor-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.instrutor-card:hover {
+    transform: translateY(-10px);
+}
+
+.instrutor-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.instrutor-info {
+    padding: 20px;
+}
+
+.instrutor-info h2 {
+    color: #2a5c45;
+    margin-bottom: 5px;
+}
+
+.especialidade {
+    font-weight: bold;
+    color: #4a8c6d;
+    margin-bottom: 10px;
+}
+
+.experiencia {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.bio {
+    margin-bottom: 20px;
+}
+
+.btn-agendar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2a5c45;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-agendar:hover {
+    background-color: #1e3d30;
+}
+
+.beneficios {
+    background-color: #e8f4ee;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.beneficios h2 {
+    text-align: center;
+    color: #2a5c45;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.beneficio-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.beneficio-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.beneficio-item h3 {
+    color: #2a5c45;
+    margin-bottom: 10px;
+}
+
+.footer-instrutores {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a5c45;
+    color: white;
+}
+
+.footer-instrutores a {
+    color: #a3e0c9;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer-instrutores a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header-instrutores {
+        padding: 60px 20px;
+    }
+    
+    .header-instrutores h1 {
+        font-size: 2rem;
+    }
+    
+    .instrutores-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .beneficios {
+        padding: 30px 20px;
+    }
+}

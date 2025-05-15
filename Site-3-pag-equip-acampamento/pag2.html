@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar Mochila Azul - CampVerse</title>
+    <link rel="stylesheet" href="static/css/mochila.css">
+</head>
+<body>
+    <header>
+        <h1>Mochila Grande Azul para Camping</h1>
+    </header>
+    
+    <main>
+        <div class="produto-container">
+            <div class="produto-imagem">
+                <img src="static/img/mochila.jpg" alt="Mochila de camping na cor azul">
+            </div>
+            
+            <div class="produto-info">
+                <p class="preco">R$ 170,00</p>
+                <p class="descricao">
+                    Mochila resistente e espaçosa perfeita para suas aventuras de camping. 
+                    Com múltiplos compartimentos, alças acolchoadas e material impermeável, 
+                    esta mochila é ideal para levar todos os seus equipamentos com conforto.
+                </p>
+                
+                <h3>Características:</h3>
+                <ul>
+                    <li>Capacidade: 50 litros</li>
+                    <li>Material: Nylon resistente</li>
+                    <li>Impermeável</li>
+                    <li>Alças acolchoadas</li>
+                    <li>Cinto lombar ajustável</li>
+                </ul>
+                
+                <a href="#" class="comprar-btn">Comprar Agora</a>
+            </div>
+        </div>
+        
+        <div class="avaliacoes">
+            <h2>Avaliações do Produto</h2>
+            
+            <div class="avaliacao-item">
+                <div>
+                    <span class="avaliacao-nome">João Silva</span>
+                    <span class="avaliacao-data">15/03/2023</span>
+                </div>
+                <div class="avaliacao-nota">★★★★★</div>
+                <p class="avaliacao-texto">
+                    Mochila excelente! Muito confortável e resistente. Usei em uma viagem de 5 dias e aguentou bem toda a carga sem desconforto.
+                </p>
+            </div>
+            
+            <div class="avaliacao-item">
+                <div>
+                    <span class="avaliacao-nome">Maria Oliveira</span>
+                    <span class="avaliacao-data">28/02/2023</span>
+                </div>
+                <div class="avaliacao-nota">★★★★☆</div>
+                <p class="avaliacao-texto">
+                    Boa mochila, espaço suficiente para tudo que precisei. Só achei que poderia ter mais bolsos internos para organização.
+                </p>
+            </div>
+            
+            <form class="avaliacao-form">
+                <h3>Deixe sua avaliação</h3>
+                
+                <div class="form-group">
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="nota">Sua nota:</label>
+                    <select id="nota" required>
+                        <option value="">Selecione...</option>
+                        <option value="5">★★★★★ - Excelente</option>
+                        <option value="4">★★★★☆ - Muito bom</option>
+                        <option value="3">★★★☆☆ - Bom</option>
+                        <option value="2">★★☆☆☆ - Regular</option>
+                        <option value="1">★☆☆☆☆ - Ruim</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="comentario">Seu comentário:</label>
+                    <textarea id="comentario" required></textarea>
+                </div>
+                
+                <button type="submit" class="enviar-avaliacao">Enviar Avaliação</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
