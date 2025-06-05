@@ -228,7 +228,7 @@ section:nth-of-type(3) a:hover {
     }
 }
 
-/* Reset e estilos base */
+
 * {
     margin: 0;
     padding: 0;
@@ -248,7 +248,7 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
+
 .product-header {
     background-color: #2a5c45;
     color: white;
@@ -280,7 +280,7 @@ body {
     font-weight: bold;
 }
 
-/* Seção principal do produto */
+
 .product-section {
     display: flex;
     flex-wrap: wrap;
@@ -343,7 +343,7 @@ body {
     min-width: 300px;
 }
 
-/* Seção de preço */
+
 .price-section {
     margin-bottom: 20px;
 }
@@ -371,7 +371,7 @@ body {
     font-weight: bold;
 }
 
-/* Informações de entrega */
+
 .shipping-info {
     display: flex;
     align-items: center;
@@ -395,7 +395,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* Opções de cor */
+
 .color-options {
     margin-bottom: 20px;
 }
@@ -423,7 +423,7 @@ body {
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
-/* Seletor de tamanho */
+
 .size-options {
     margin-bottom: 20px;
 }
@@ -442,7 +442,7 @@ body {
     font-size: 1rem;
 }
 
-/* Seletor de quantidade */
+
 .quantity-selector {
     margin-bottom: 20px;
 }
@@ -481,7 +481,7 @@ body {
     font-size: 1rem;
 }
 
-/* Botões de ação */
+
 .action-buttons {
     display: flex;
     gap: 15px;
@@ -517,7 +517,7 @@ body {
     background-color: #1e3d30;
 }
 
-/* Descrição do produto */
+
 .product-description {
     background-color: white;
     padding: 20px;
@@ -551,7 +551,7 @@ body {
     margin-bottom: 8px;
 }
 
-/* Seção de avaliações */
+
 .reviews-section {
     background-color: white;
     padding: 30px;
@@ -629,7 +629,7 @@ body {
     text-align: right;
 }
 
-/* Formulário de avaliação */
+
 .review-form {
     margin-bottom: 40px;
     padding: 20px;
@@ -698,7 +698,7 @@ body {
     background-color: #1e3d30;
 }
 
-/* Lista de avaliações */
+
 .reviews-list {
     border-top: 1px solid #eee;
     padding-top: 20px;
@@ -746,7 +746,6 @@ body {
     line-height: 1.6;
 }
 
-/* Footer */
 .product-footer {
     background-color: #2a5c45;
     color: white;
@@ -774,7 +773,7 @@ body {
     text-decoration: underline;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .product-section {
         flex-direction: column;
